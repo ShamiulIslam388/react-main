@@ -7,11 +7,13 @@ import React from "react";
  */
 
 import FileUpload from "./projects/fileuploads/FileUpload";
+import MobileMenu from "./projects/mobilemenu/MobileMenu";
 
 const App = () => {
   return (
     <>
-      <FileUpload />
+      {/* <FileUpload /> */}
+      <MobileMenu />
     </>
   );
 };
