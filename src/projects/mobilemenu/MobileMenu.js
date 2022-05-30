@@ -15,13 +15,7 @@ function MobileMenu() {
         className="mobilemenu-menu-icon"
         onClick={() => setIsOpen(!isOpen)}
       />
-      <div
-        className={
-          isOpen
-            ? "mobilemenu-menu-container active"
-            : "mobilemenu-menu-container"
-        }
-      >
+      <div className={"mobilemenu-menu-container" + (isOpen ? " active" : "")}>
         <div className="mobilemenu-menu-item" onClick={() => setIsOpen(false)}>
           Home
         </div>

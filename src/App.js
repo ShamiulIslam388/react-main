@@ -8,12 +8,14 @@ import React from "react";
 
 import FileUpload from "./projects/fileuploads/FileUpload";
 import MobileMenu from "./projects/mobilemenu/MobileMenu";
+import Toaster from "./projects/toaster/Toaster";
 
 const App = () => {
   return (
     <>
       {/* <FileUpload /> */}
-      <MobileMenu />
+      {/* <MobileMenu /> */}
+      <Toaster />
     </>
   );
 };

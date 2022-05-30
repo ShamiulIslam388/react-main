@@ -14,10 +14,10 @@
   background: #fff;
   z-index: 9999;
   display: none;
-  transition: 10s linear;
+  transition: display 100s linear;
 }
 
-.mobilemenu-menu-container.active {
+.active {
   width: 50%;
   background-color: #fff;
   display: flex;
